@@ -1,4 +1,4 @@
-package com.rick.jetsnack_ui.ui.utils
+package com.rick.jetsnack_ui.ui.components
 
 import android.content.res.Configuration
 import androidx.compose.foundation.clickable
@@ -34,10 +34,8 @@ import com.rick.jetsnack_ui.model.CollectionType
 import com.rick.jetsnack_ui.model.Snack
 import com.rick.jetsnack_ui.model.SnackCollection
 import com.rick.jetsnack_ui.model.snacks
-import com.rick.jetsnack_ui.ui.components.JetsnackCard
-import com.rick.jetsnack_ui.ui.components.JetsnackSurface
-import com.rick.jetsnack_ui.ui.components.offsetGradientBackground
 import com.rick.jetsnack_ui.ui.theme.JetsnackTheme
+import com.rick.jetsnack_ui.ui.utils.mirroringIcon
 
 private val HighlightCardWidth = 170.dp
 private val HighlightCardPadding = 16.dp
